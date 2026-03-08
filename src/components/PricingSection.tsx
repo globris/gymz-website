@@ -4,19 +4,19 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Starter",
-    price: "29",
+    price: "1,499",
     features: ["Gym floor access", "Locker room access", "Free WiFi", "1 Guest pass / month"],
     popular: false,
   },
   {
     name: "Pro",
-    price: "59",
+    price: "2,999",
     features: ["All Starter features", "Unlimited group classes", "Personal training (2x/mo)", "Nutrition guidance", "Sauna & steam room"],
     popular: true,
   },
   {
     name: "Elite",
-    price: "99",
+    price: "4,999",
     features: ["All Pro features", "Unlimited PT sessions", "Recovery suite access", "Priority booking", "Exclusive events"],
     popular: false,
   },
@@ -49,7 +49,7 @@ const PricingSection = () => (
             )}
             <h3 className="font-display text-3xl text-foreground mb-1">{plan.name}</h3>
             <div className="mb-6">
-              <span className="font-display text-5xl text-foreground">${plan.price}</span>
+              <span className="font-display text-5xl text-foreground">₹{plan.price}</span>
               <span className="text-muted-foreground text-sm">/month</span>
             </div>
             <ul className="space-y-3 mb-8">
