@@ -57,13 +57,13 @@ const BMICalculator = () => {
   };
 
   return (
-    <section id="bmi" className="py-16 md:py-16 md:py-16 md:py-24 bg-muted/30">
+    <section id="bmi" className="py-16 md:py-16 md:py-16 md:py-16 md:py-24 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className0 md:mb-1="text-ce0 md:mb-1nter mb-16">
+        <div 0 md:mb-1className0 md:mb-1="text-ce0 md:mb-1nter mb-16">
           <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
             Health Tool
           </p>
-          <h2 className="4xl md:text-5xl lgisplay text-5xl md:text-6xl text-foreground">
+       4xl md:text-5xl lg className="4xl md:text-5xl lgisplay text-5xl md:text-6xl text-foreground">
             BMI CALCULATOR
           </h2>
           <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
@@ -71,7 +71,7 @@ const BMICalculator = () => {
           </p>
         </div>
 
-        <div className="max-w-lg mx-auto bg-card border border-border rounded-xl p-8 shadow-lg">
+        <div className="max-w-lg mx-auto bg-card bord6 sm:p-er border-border rounded-xl p-8 shadow-lg">
           {/* Gender */}
           <div className="mb-6">
             <Label className="text-foreground font-semibold mb-3 block">Gender</Label>
