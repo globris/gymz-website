@@ -49,7 +49,7 @@ const PricingSection = () => (
             )}
             <h3 className="font-display text-3xl text-foreground mb-1">{plan.name}</h3>
             <div className="mb-6">
-              <span className="font-display text-5xl text-foreground">${plan.price}</span>
+              <span className="font-display text-5xl text-foreground">₹{plan.price}</span>
               <span className="text-muted-foreground text-sm">/month</span>
             </div>
             <ul className="space-y-3 mb-8">
