@@ -31,7 +31,7 @@ const TestimonialsSection = () => (
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         {testimonials.map((t) => (
           <div
             key={t.name}
