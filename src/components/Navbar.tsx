@@ -14,6 +14,11 @@ const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [dark, setDark] = useState(() => !document.documentElement.classList.contains("light"));
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("light", !dark);
+  }, [dark]);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
