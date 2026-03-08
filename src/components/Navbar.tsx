@@ -26,7 +26,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop */}
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
@@ -39,13 +39,13 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <Button className="hidden md:inline-flex" size="sm" asChild>
+        <Button className="hidden lg:inline-flex" size="sm" asChild>
           <a href="#pricing">Join Now</a>
         </Button>
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-foreground"
+          className="lg:hidden text-foreground"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
         >
