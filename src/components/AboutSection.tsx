@@ -9,7 +9,7 @@ const stats = [
 ];
 
 const AboutSection = () => (
-  <section id="about" className="py-24 bg-secondary">
+  <section id="about" className="py-16 md:py-24 bg-secondary">
     <div className="container mx-auto px-4">
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="relative">
