@@ -57,9 +57,9 @@ const BMICalculator = () => {
   };
 
   return (
-    <section id="bmi" className="py-16 md:py-24 bg-muted/30">
+    <section id="bmi" className="py-16 md:py-16 md:py-24 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
+        <div className="text-ce0 md:mb-1nter mb-16">
           <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
             Health Tool
           </p>
