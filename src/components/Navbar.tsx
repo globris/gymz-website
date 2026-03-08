@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Menu, X, Dumbbell } from "lucide-react";
+import { useState, useEffect } from "react";
+import { Menu, X, Dumbbell, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -14,6 +14,11 @@ const navLinks = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [dark, setDark] = useState(() => !document.documentElement.classList.contains("light"));
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("light", !dark);
+  }, [dark]);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
@@ -39,9 +44,18 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <Button className="hidden lg:inline-flex" size="sm" asChild>
-          <a href="#pricing">Join Now</a>
-        </Button>
+        <div className="hidden lg:flex items-center gap-3">
+          <button
+            onClick={() => setDark(!dark)}
+            className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors"
+            aria-label="Toggle theme"
+          >
+            {dark ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+          <Button size="sm" asChild>
+            <a href="#pricing">Join Now</a>
+          </Button>
+        </div>
 
         {/* Mobile toggle */}
         <button
@@ -69,9 +83,18 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button className="mt-4 w-full" size="sm" asChild>
-            <a href="#pricing">Join Now</a>
-          </Button>
+          <div className="flex items-center gap-3 mt-4">
+            <button
+              onClick={() => setDark(!dark)}
+              className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Toggle theme"
+            >
+              {dark ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+            <Button className="flex-1" size="sm" asChild>
+              <a href="#pricing">Join Now</a>
+            </Button>
+          </div>
         </div>
       )}
     </nav>
