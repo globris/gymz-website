@@ -5,7 +5,7 @@ import heroImg from "@/assets/hero-gym.jpg";
 const HeroSection = () => (
   <section
     id="home"
-    className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    className="relative min-h-[70vh] md:min-h-screen flex items-center justify-center overflow-hidden"
   >
     {/* Background */}
     <div className="absolute inset-0">
