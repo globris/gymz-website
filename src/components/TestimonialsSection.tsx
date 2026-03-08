@@ -1,7 +1,7 @@
 import { Star, Quote } from "lucide-react";
 
 const testimonials = [
-  { name: "Marcus Johnson", role: "Member for 2 years", rating: 5, text: "IronForge completely transformed my life. The trainers are incredible and the community keeps me motivated every single day. Lost 30kg in 8 months!" },
+  { name: "Marcus Johnson", role: "Member for 2 years", rating: 5, text: "{ name: "Marcus Johnson", role: "Member for 2 years", rating: 5, text: "Gym completely transformed my life. The trainers are incredible and the community keeps me motivated every single day. Lost 30kg in 8 months!" }, The trainers are incredible and the community keeps me motivated every single day. Lost 30kg in 8 months!" },
   { name: "Sarah Williams", role: "Member for 1 year", rating: 5, text: "Best gym I've ever been to. The equipment is top-notch and the classes are always challenging. I've never felt stronger or more confident." },
   { name: "David Chen", role: "Member for 3 years", rating: 5, text: "The personal training here is world-class. My trainer designed a program that worked around my injuries and got me back to peak performance." },
   { name: "Emily Rodriguez", role: "Member for 6 months", rating: 4, text: "As a beginner, I was nervous walking in. But the staff made me feel welcome from day one. The group classes are my favorite part!" },

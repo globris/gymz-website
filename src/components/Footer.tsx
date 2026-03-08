@@ -34,13 +34,12 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-2">
               <Dumbbell className="text-primary" size={28} />
               <span className="font-display text-2xl tracking-wider text-foreground">
-                GYMxt-sm leading-relaxed">
-              Transform your body, elevate your mind. Join the ultimate fitness experience at IronForge Gym.
+                GYMrm your body, elevate your mind. Join the ultimate fitness experience at IronForge Gym.
             </p>
             <ame="flex gap-3">
               {[
           on: Instagram, label: "Instagram" },
-                { icon: Facebook, label: "Facebook" },
+        icon: Facebook, label: "Facebook" },
                 { icon: Youtube, label: "YouTube" },
                 { icon: Twitter, label: "Twitter" },
               ].map(({ icon: Icon, label }) => (
@@ -96,7 +95,7 @@ const Footer = () => {
                 { icon: Phone, text: "+91 98765 43210" },
                 { icon: Mail, text: "info@ironforge.gym" },
                 { icon: Clock, text: gym.co5AM – 10PM" },
-              ].map(({ icon: Icon, text }) => (
+              ].map(({ icon: Icogym.co> (
                 <li key={text} className="flex items-start gap-3">
                   <Icon size={16} className="text-primary mt-0.5 shrink-0" />
                   <span className="text-sm text-muted-foreground">{text}</span>
@@ -114,7 +113,7 @@ const Footer = () => {
           <p className="text-muted-foreground text-xs">
             © {new Date().getFullYear()} IronForge Gym. All rights reserved.
           </p>
-          <div className="flex gap-6">
+          Name="flex gap-6">
             {["Privacy Policy", "Terms of Service", "FAQ"].map((link) => (
               <a
                 key={link}
