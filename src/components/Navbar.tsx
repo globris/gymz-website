@@ -44,9 +44,18 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <Button className="hidden lg:inline-flex" size="sm" asChild>
-          <a href="#pricing">Join Now</a>
-        </Button>
+        <div className="hidden lg:flex items-center gap-3">
+          <button
+            onClick={() => setDark(!dark)}
+            className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors"
+            aria-label="Toggle theme"
+          >
+            {dark ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+          <Button size="sm" asChild>
+            <a href="#pricing">Join Now</a>
+          </Button>
+        </div>
 
         {/* Mobile toggle */}
         <button
