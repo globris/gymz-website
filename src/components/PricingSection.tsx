@@ -23,22 +23,22 @@ const plans = [
 ];
 
 const PricingSection = () => (
-  <section id="pricing" className="py-16 md:py-16 md:py-16 md:py-24 bg-secondary">
+  <section id="pricing" className="py-16 md:py-24 bg-secondary">
     <div className="container mx-auto px-4">
-      <div className0 md:mb-1="text-ce0 md:mb-1nter mb-16">
+      <div className="text-center mb-10 md:mb-16">
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
           Membership Plans
         </p>
-        <h2 className="4xl md:text-5xl lgisplay text-5xl md:text-6xl text-foreground">
+        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground">
           INVEST IN <span className="text-gradient">YOURSELF</span>
         </h2>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto">
         {plans.map((plan) => (
           <div
             key={plan.name}
-            className={`relative bg-card rounded-lg p-8 border ${
+            className={`relative bg-card rounded-lg p-6 sm:p-8 border ${
               plan.popular ? "border-primary glow-shadow" : "border-border"
             }`}
           >

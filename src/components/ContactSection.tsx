@@ -4,19 +4,19 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 const ContactSection = () => (
-  <section id="contact" className="py-16 md:py-16 md:py-16 md:py-24">
+  <section id="contact" className="py-16 md:py-24">
     <div className="container mx-auto px-4">
-      <div className0 md:mb-1="text-ce0 md:mb-1nter mb-16">
+      <div className="text-center mb-10 md:mb-16">
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
           Get In Touch
         </p>
-        <h2 className="4xl md:text-5xl lgisplay text-5xl md:text-6xl text-foreground">
+        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground">
           CONTACT <span className="text-gradient">US</span>
         </h2>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-        <div className="space-y-8">
+      <div className="grid lg:grid-cols-2 gap-10 lg:gap-12 max-w-5xl mx-auto">
+        <div className="space-y-6 sm:space-y-8">
           {[
             { icon: MapPin, title: "Location", text: "123 Fitness Ave, Downtown City" },
             { icon: Phone, title: "Phone", text: "+1 (555) 123-4567" },
