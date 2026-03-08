@@ -10,13 +10,13 @@ const classes = [
 ];
 
 const ClassesSection = () => (
-  <section id="classes" className="py-24">
+  <section id="classes" className="py-16 md:py-24">
     <div className="container mx-auto px-4">
-      <div className="text-center mb-16">
+      <div className="text-center mb-10 md:mb-16">
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
           Our Programs
         </p>
-        <h2 className="font-display text-5xl md:text-6xl text-foreground">
+        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground">
           CLASSES THAT <span className="text-gradient">IGNITE</span>
         </h2>
       </div>

@@ -5,40 +5,20 @@ import trainer3 from "@/assets/trainer-3.jpg";
 import trainer4 from "@/assets/trainer-4.jpg";
 
 const trainers = [
-  {
-    name: "Jake Morrison",
-    specialty: "Strength & Conditioning",
-    image: trainer1,
-    experience: "8+ years",
-  },
-  {
-    name: "Maya Santos",
-    specialty: "HIIT & Functional Training",
-    image: trainer2,
-    experience: "6+ years",
-  },
-  {
-    name: "Ryan Cooper",
-    specialty: "Bodybuilding & Nutrition",
-    image: trainer3,
-    experience: "10+ years",
-  },
-  {
-    name: "Emma Taylor",
-    specialty: "Yoga & Flexibility",
-    image: trainer4,
-    experience: "5+ years",
-  },
+  { name: "Jake Morrison", specialty: "Strength & Conditioning", image: trainer1, experience: "8+ years" },
+  { name: "Maya Santos", specialty: "HIIT & Functional Training", image: trainer2, experience: "6+ years" },
+  { name: "Ryan Cooper", specialty: "Bodybuilding & Nutrition", image: trainer3, experience: "10+ years" },
+  { name: "Emma Taylor", specialty: "Yoga & Flexibility", image: trainer4, experience: "5+ years" },
 ];
 
 const TrainersSection = () => (
-  <section id="trainers" className="py-24 bg-background">
+  <section id="trainers" className="py-16 md:py-24 bg-background">
     <div className="container mx-auto px-4">
-      <div className="text-center mb-16">
+      <div className="text-center mb-10 md:mb-16">
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
           Our Team
         </p>
-        <h2 className="font-display text-5xl md:text-6xl text-foreground">
+        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground">
           EXPERT TRAINERS
         </h2>
         <p className="text-muted-foreground mt-4 max-w-xl mx-auto">

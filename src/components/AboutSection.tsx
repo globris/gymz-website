@@ -9,9 +9,9 @@ const stats = [
 ];
 
 const AboutSection = () => (
-  <section id="about" className="py-24 bg-secondary">
+  <section id="about" className="py-16 md:py-24 bg-secondary">
     <div className="container mx-auto px-4">
-      <div className="grid lg:grid-cols-2 gap-16 items-center">
+      <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         <div className="relative">
           <img
             src={classesImg}
@@ -28,7 +28,7 @@ const AboutSection = () => (
           <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
             Why Choose Us
           </p>
-          <h2 className="font-display text-5xl md:text-6xl text-foreground mb-6">
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
             MORE THAN JUST A GYM
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-10">
