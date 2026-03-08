@@ -6,6 +6,8 @@ const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Classes", href: "#classes" },
+  { label: "Trainers", href: "#trainers" },
+  { label: "BMI", href: "#bmi" },
   { label: "Pricing", href: "#pricing" },
   { label: "Contact", href: "#contact" },
 ];
