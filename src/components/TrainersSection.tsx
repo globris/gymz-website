@@ -26,7 +26,7 @@ const TrainersSection = () => (
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
         {trainers.map((t) => (
           <div
             key={t.name}
