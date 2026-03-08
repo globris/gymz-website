@@ -44,7 +44,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="hidden lg:flex items-center gap-3">
+        <div className="flex items-center gap-3">
           <button
             onClick={() => setDark(!dark)}
             className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors"
@@ -52,19 +52,18 @@ const Navbar = () => {
           >
             {dark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-          <Button size="sm" asChild>
+          <Button size="sm" asChild className="hidden sm:inline-flex">
             <a href="#pricing">Join Now</a>
           </Button>
+          {/* Mobile toggle */}
+          <button
+            className="lg:hidden text-foreground"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
-
-        {/* Mobile toggle */}
-        <button
-          className="lg:hidden text-foreground"
-          onClick={() => setOpen(!open)}
-          aria-label="Toggle menu"
-        >
-          {open ? <X size={24} /> : <Menu size={24} />}
-        </button>
       </div>
 
       {/* Mobile menu */}
