@@ -15,7 +15,7 @@ const BeforeAfterSection = () => (
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
           Real Results
         </p>
-        <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground">
+        <h2 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground">
           TRANSFORMATIONS
         </h2>
         <p className="text-muted-foreground mt-4 max-w-xl mx-auto">
