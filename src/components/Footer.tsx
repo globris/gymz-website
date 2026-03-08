@@ -34,13 +34,10 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-2">
               <Dumbbell className="text-primary" size={28} />
               <span className="font-display text-2xl tracking-wider text-foreground">
-                GYM
-              </span>
-            </a>
-            <p className="text-muted-foreground text-sm leading-relaxed">
+                GYM       <p className="text-muted-foreground text-sm leading-relaxed">
               Transform your body, elevate your mind. Join the ultimate fitness experience at IronForge Gym.
             </p>
-            <div className="flex gap-3">
+            <ame="flex gap-3">
               {[
                 { icon: Instagram, label: "Instagram" },
                 { icon: Facebook, label: "Facebook" },
