@@ -14,7 +14,7 @@ const HeroSection = () => (
         alt="Modern gym interior"
         className="w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-background/70" />
+      <div className="absolute inset-0 bg-black/70" />
     </div>
 
     <div className="relative z-10 container mx-auto px-4 text-center py-32">
