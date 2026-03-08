@@ -20,7 +20,7 @@ const ContactSection = () => (
           {[
             { icon: MapPin, title: "Location", text: "123 Fitness Ave, Downtown City" },
             { icon: Phone, title: "Phone", text: "+1 (555) 123-4567" },
-            { icon: Mail, title: "Email", text: "info@ironforge.com" },
+            { icon: Mail, title: "Email", text: "info@gym.com" },
             { icon: Clock, title: "Hours", text: "Open 24/7, 365 days" },
           ].map((item) => (
             <div key={item.title} className="flex items-start gap-4">
