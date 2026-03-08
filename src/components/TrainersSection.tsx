@@ -32,7 +32,7 @@ const trainers = [
 ];
 
 const TrainersSection = () => (
-  <section id="trainers" className="py-24 bg-background">
+  <section id="trainers" className="py-16 md:py-24 bg-background">
     <div className="container mx-auto px-4">
       <div className="text-center mb-16">
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
