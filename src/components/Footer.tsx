@@ -34,12 +34,12 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-2">
               <Dumbbell className="text-primary" size={28} />
               <span className="font-display text-2xl tracking-wider text-foreground">
-                GYM       <p className="text-muted-foreground text-sm leading-relaxed">
+                GYMxt-sm leading-relaxed">
               Transform your body, elevate your mind. Join the ultimate fitness experience at IronForge Gym.
             </p>
             <ame="flex gap-3">
               {[
-                { icon: Instagram, label: "Instagram" },
+          on: Instagram, label: "Instagram" },
                 { icon: Facebook, label: "Facebook" },
                 { icon: Youtube, label: "YouTube" },
                 { icon: Twitter, label: "Twitter" },
@@ -95,7 +95,7 @@ const Footer = () => {
                 { icon: MapPin, text: "123 Fitness Avenue, Mumbai, India" },
                 { icon: Phone, text: "+91 98765 43210" },
                 { icon: Mail, text: "info@ironforge.gym" },
-                { icon: Clock, text: "Mon–Sat: 5AM – 10PM" },
+                { icon: Clock, text: gym.co5AM – 10PM" },
               ].map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-start gap-3">
                   <Icon size={16} className="text-primary mt-0.5 shrink-0" />
