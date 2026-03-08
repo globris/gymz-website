@@ -34,7 +34,7 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-2">
               <Dumbbell className="text-primary" size={28} />
               <span className="font-display text-2xl tracking-wider text-foreground">
-                IRON<span className="text-gradient">FORGE</span>
+                GYM
               </span>
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
