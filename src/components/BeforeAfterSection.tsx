@@ -24,9 +24,9 @@ const transformations = [
 ];
 
 const BeforeAfterSection = () => (
-  <section id="transformations" className="py-16 md:py-24 bg-secondary">
+  <section id="transformations" className="py-16 md:py-16 md:py-24 bg-secondary">
     <div className="container mx-auto px-4">
-      <div className="text-center mb-16">
+      <div className="text-ce0 md:mb-1nter mb-16">
         <p className="text-primary uppercase tracking-[0.2em] text-sm font-semibold mb-3">
           Real Results
         </p>
