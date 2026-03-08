@@ -5,6 +5,7 @@ import ClassesSection from "@/components/ClassesSection";
 import TrainersSection from "@/components/TrainersSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BeforeAfterSection from "@/components/BeforeAfterSection";
+import BMICalculator from "@/components/BMICalculator";
 import PricingSection from "@/components/PricingSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ const Index = () => (
     <TrainersSection />
     <BeforeAfterSection />
     <TestimonialsSection />
+    <BMICalculator />
     <PricingSection />
     <ContactSection />
     <Footer />
