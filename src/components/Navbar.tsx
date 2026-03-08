@@ -52,7 +52,7 @@ const Navbar = () => {
           >
             {dark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
-          <Button size="sm" asChild className="hidden sm:inline-flex">
+          <Button size="sm" asChild>
             <a href="#pricing">Join Now</a>
           </Button>
           {/* Mobile toggle */}
