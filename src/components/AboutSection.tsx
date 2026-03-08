@@ -32,7 +32,7 @@ const AboutSection = () => (
             MORE THAN JUST A GYM
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-10">
-            At IronForge, we believe fitness is a lifestyle. Our world-class
+            At Gym, we believe fitness is a lifestyle. Our world-class
             facility combines cutting-edge equipment with passionate coaches to
             deliver results that last. Whether you're a beginner or elite
             athlete, we have everything you need.
