@@ -14,14 +14,14 @@ const HeroSection = () => (
         alt="Modern gym interior"
         className="w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-background/70" />
+      <div className="absolute inset-0 bg-black/70" />
     </div>
 
     <div className="relative z-10 container mx-auto px-4 text-center py-32">
       <p className="text-primary font-semibold uppercase tracking-[0.3em] text-sm mb-4 animate-fade-in-up">
         Premium Fitness Experience
       </p>
-      <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-9xl leading-none tracking-tight text-foreground mb-6 animate-fade-in-up [animation-delay:0.15s] opacity-0">
+      <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-9xl leading-none tracking-tight text-white mb-6 animate-fade-in-up [animation-delay:0.15s] opacity-0">
         FORGE YOUR<br />
         <span className="text-gradient">STRONGEST</span> SELF
       </h1>
