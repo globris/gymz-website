@@ -83,9 +83,18 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button className="mt-4 w-full" size="sm" asChild>
-            <a href="#pricing">Join Now</a>
-          </Button>
+          <div className="flex items-center gap-3 mt-4">
+            <button
+              onClick={() => setDark(!dark)}
+              className="w-9 h-9 rounded-lg bg-muted flex items-center justify-center text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Toggle theme"
+            >
+              {dark ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
+            <Button className="flex-1" size="sm" asChild>
+              <a href="#pricing">Join Now</a>
+            </Button>
+          </div>
         </div>
       )}
     </nav>
