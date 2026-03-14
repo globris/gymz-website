@@ -21,7 +21,7 @@ const HeroSection = () => (
       <p className="text-primary font-semibold uppercase tracking-[0.3em] text-sm mb-4 animate-fade-in-up">
         Premium Fitness Experience
       </p>
-      <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-9xl leading-none tracking-tight text-foreground mb-6 animate-fade-in-up [animation-delay:0.15s] opacity-0">
+      <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-9xl leading-none tracking-tight text-white mb-6 animate-fade-in-up [animation-delay:0.15s] opacity-0">
         FORGE YOUR<br />
         <span className="text-gradient">STRONGEST</span> SELF
       </h1>
